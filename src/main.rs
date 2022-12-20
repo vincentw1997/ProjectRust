@@ -5,6 +5,7 @@ use std::time::SystemTime;
 use chrono::{DateTime, TimeZone, NaiveDateTime, Utc, Date};
 use cli_table::{format::Justify, print_stdout, Cell, Style, Table, WithTitle};
 
+//TODO; still need to combine this code with the database if possible
 
 struct Student {
     ID : String, //can be immatrikulationsnummer 
